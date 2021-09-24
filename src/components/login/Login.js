@@ -30,9 +30,7 @@ const Login = () => {
   //? AUTH GUARD ADDED FOR PROTECTED ROUTE
   const history = useHistory();
   useEffect(() => {
-    // console.log('before checking token');
     if (localStorage.getItem("token")) {
-      console.log('token is ',localStorage.getItem("token"));
       history.push("/collections");
     }
   }, [history]);

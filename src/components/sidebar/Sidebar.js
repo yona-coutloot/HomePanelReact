@@ -46,14 +46,6 @@ const Sidebar = ({ trigger }) => {
           <Menu.Item key="7">Team 1</Menu.Item>
           <Menu.Item key="8">Team 2</Menu.Item>
         </SubMenu>
-
-        <Menu.Item
-          key="collections"
-          icon={<AppstoreAddOutlined />}
-          onClick={() => history.push("/collections")}
-        >
-          Yona
-        </Menu.Item>
       </Menu>
     </Sider>
   );

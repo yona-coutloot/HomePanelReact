@@ -365,7 +365,8 @@ const AddDeals = () => {
   const handleAddDeal = () => {
     const dataToSend = {
       code: coupanCode,
-      status: Number(isOnline),
+      // status: Number(isOnline),
+      status: 0,
       seen: Number(Dealseen),
       liveDate: startDateToSend,
       expiryDate: endDateToSend,

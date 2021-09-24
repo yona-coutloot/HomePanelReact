@@ -11,7 +11,6 @@ import AllCollection from "./pages/allCollections/AllCollection";
 import CollectionFilter from "./pages/collectionFilter/CollectionFilter";
 import CreateCollection from "./pages/createCollection/CreateCollection";
 import ViewEditCollection from "./pages/viewEditCollection/ViewEditCollection";
-import  YonaView from "../src/components/yona/yona"
 
 const App = () => {
   //? AUTH GUARD ADDED FOR PROTECTED ROUTE

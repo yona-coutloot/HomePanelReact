@@ -424,8 +424,7 @@ const AllCollection = () => {
                 Collection
                 <Breadcrumb style={allCollectionStyles.breadcrumb}>
                   <Breadcrumb.Item>
-                    {/* <a href="/allTemplates"> */}
-                    <a href="/collections">
+                    <a href="/allTemplates">
                       <HomeFilled /> Home
                     </a>
                   </Breadcrumb.Item>

@@ -11,7 +11,6 @@ const styles = {
 };
 
 export const sentOtp = createAsyncThunk("login/sendOtp", async ({ email, mobile }) => {
-  console.log('to asyncThunk Function')
   const config = {
     method: "post",
     url: "https://internal-auth.coutloot.com/auth/sendOTP",
@@ -26,9 +25,7 @@ export const sentOtp = createAsyncThunk("login/sendOtp", async ({ email, mobile 
       key: "sentOtp",
       style: styles.message,
     });
-    
     const { data } = await axios(config);
-    console.log('data',data);
     return data;
   } catch (error) {
     console.log("🚀 ~ file: loginSlice.js ~ line 19 ~ error", error);
