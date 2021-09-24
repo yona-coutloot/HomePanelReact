@@ -1,0 +1,31 @@
+/* .ant-table-row{
+    border-spacing: 15px 0px !important;
+} */
+
+.preview-icon {
+  padding: 0.7rem;
+  border-radius: 2rem;
+  background-color: #fff3eb;
+}
+
+.edit-icon {
+  padding: 0.7rem;
+  border-radius: 2rem;
+  background-color: #f1f0ff;
+}
+
+.clone-icon {
+  padding: 0.7rem;
+  border-radius: 2rem;
+  background-color: #f2f7ff;
+}
+
+.delete-icon {
+  padding: 0.7rem;
+  border-radius: 2rem;
+  background-color: #fd743c21;
+}
+
+.status-tag {
+  margin-left: 1rem;
+}

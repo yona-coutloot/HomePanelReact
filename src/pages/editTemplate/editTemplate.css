@@ -1,0 +1,30 @@
+.row-dragging {
+  background: #fafafa;
+  border: 1px solid #ccc;
+}
+
+.row-dragging td {
+  padding: 16px;
+}
+
+.row-dragging .drag-visible {
+  visibility: visible;
+}
+
+.template-image {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: contain;
+}
+
+.edit-icon {
+  padding: 0.7rem;
+  border-radius: 2rem;
+  background-color: #f1f0ff;
+}
+
+.delete-icon {
+  padding: 0.7rem;
+  border-radius: 2rem;
+  background-color: #fd743c21;
+}

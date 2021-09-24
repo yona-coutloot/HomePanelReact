@@ -1,0 +1,20 @@
+.ant-tabs-content-holder {
+  /* this is where you would scroll only the content */
+  overflow: auto;
+  height: calc(
+    100vh - 42px
+  ); /* Replace 42px with the needed height. 100vh means the whole height of the browser's viewport */
+  height: -webkit-calc(100vh - 42px);
+  height: -moz-calc(100vh - 42px);
+}
+
+.color-list {
+  /* this is where you would scroll only the content */
+  overflow: auto;
+  height: calc(
+    100vh - 70px
+  ); /* Replace 42px with the needed height. 100vh means the whole height of the browser's viewport */
+  height: -webkit-calc(100vh - 70px);
+  height: -moz-calc(100vh - 70px);
+}
+
